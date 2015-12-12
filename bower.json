@@ -4,7 +4,7 @@
     "amitesh chaturvedi <call.amitesh@gmail.com>"
   ],
   "description": "Angularjs Media Queries",
-  "main": "",
+  "main": "./ng-media-query.js",
   "moduleType": [],
   "keywords": [
     "Angularjs",
@@ -13,7 +13,7 @@
   ],
   "license": "MIT",
   "homepage": "",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
