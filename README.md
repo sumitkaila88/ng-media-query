@@ -44,8 +44,10 @@ angular.module('yourApp').value('media', {
 });
 
 [minwidth, maxwidth]
-Use -1 for no limit
-You're free to change the key value pair for media. The response will be the provided key(eg. xs)
+Use -1 for no limit.
+You're free to change the key value pair for media.
+The response will be the provided key.
+eg. xs
 
 ```
 
