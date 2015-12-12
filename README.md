@@ -53,8 +53,7 @@ angular.module('yourApp').value('media', {
 
 >
 ```html
-var getMedia = NgMediaQuery.getMedia();
-        
+var getMedia = NgMediaQuery.getMedia();        
 getMedia.then(function(data){
     $scope.media = data;
 }, function(status){});
