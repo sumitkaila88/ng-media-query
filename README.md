@@ -43,13 +43,12 @@ angular.module('yourApp').value('media', {
     'lg': [1200, -1]
 });
 
-[minwidth, maxwidth]
+```
+
+Set 'device key':[minwidth, maxwidth]
 Use -1 for no limit.
 You're free to change the key value pair for media.
-The response will be the provided key.
-eg. xs
-
-```
+The response will be the provided key (eg. xs).
 
 ## Get current media
 
