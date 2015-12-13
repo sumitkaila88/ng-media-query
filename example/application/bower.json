@@ -1,0 +1,27 @@
+{
+  "name": "ng-media-query",
+  "authors": [
+    "amitesh chaturvedi <call.amitesh@gmail.com>"
+  ],
+  "description": "Angularjs Media Queries",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "Angularjs",
+    "Media",
+    "Query"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.8"
+  }
+}

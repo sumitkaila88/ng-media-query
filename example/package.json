@@ -1,0 +1,28 @@
+{
+  "name": "ng-media-query",
+  "version": "1.0.0",
+  "description": "Angularjs Media Queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callamitesh/ng-media-query.git"
+  },
+  "keywords": [
+    "Angularjs",
+    "Media",
+    "Query"
+  ],
+  "author": "Amitesh Chaturvedi <call.amitesh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/callamitesh/ng-media-query/issues"
+  },
+  "homepage": "https://github.com/callamitesh/ng-media-query#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0"
+  }
+}
