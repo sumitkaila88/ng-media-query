@@ -1,3 +1,10 @@
+// ng-media-query v1.0.1
+// @params: xs, sm, md, lg, set key value pair according to the break points
+// Created date: 13th Dec, 2015
+// Last edited date: 13th Dec, 2015
+// Contributors: Amitesh, Sumit
+
+
 var ngMediaQuery = angular.module('ngMediaQuery', []);
 
 ngMediaQuery.value('media', {  // to change the media values set query params below, -1 is used for no minimum or maximum limit, use pixel values 
