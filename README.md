@@ -23,7 +23,7 @@ bower install ng-media-query
 >
 ```html
 Download ng-media-query.js
-or       ng-media-query.js
+or       ng-media-query.min.js
 ```
 
 ## Dependencies
