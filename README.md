@@ -1,4 +1,4 @@
-# ng-media-query
+# ng-media-query v1.0.1
 
 #### Running media queries in Angularjs
 
@@ -46,8 +46,9 @@ angular.module('yourApp').value('media', {
 
 #### Set 'device key':[minwidth, maxwidth]
 #### Use -1 for no limit.
-#### You're free to change the key value pair for media.
+#### The key value for media can be changed as per the requirement.
 #### The response will be the provided key (eg. xs).
+#### Use get media, and mediaChange functions in your controler, refer attached example for details.
 
 ## Get current media
 
@@ -56,7 +57,9 @@ angular.module('yourApp').value('media', {
 var getMedia = NgMediaQuery.getMedia();        
 getMedia.then(function(data){
     $scope.media = data;
-}, function(status){});
+}, function(status){
+    //  this returns the current media value, initial setting can be set here
+   });
 ```
 
 ## Get media on change
@@ -65,6 +68,10 @@ getMedia.then(function(data){
 ```html
 $scope.$on('MediaChange', function(event, media){
     $scope.media = media;
-    $scope.$apply();
+    //this is the onchage media, whenever browser is resized or orientation is changed this function is called, set media change functionalities here
 });
 ```
+
+
+#### Feel free for your suggestions and comments. 
+#### Please let us know if you need any extra functionalities to be added, we will keep providing examples.
