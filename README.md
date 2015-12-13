@@ -48,9 +48,11 @@ angular.module('yourApp').value('media', {
 #### Use -1 for no limit.
 #### The key value for media can be changed as per the requirement.
 #### The response will be the provided key (eg. xs).
-#### Use get media, and mediaChange functions in your controler, refer attached example for details.
 
-## Get current media
+## Usage:
+#### use below methods in your controller, refer example
+
+### Get current media
 
 >
 ```html
@@ -62,7 +64,7 @@ getMedia.then(function(data){
    });
 ```
 
-## Get media on change
+### Get media on change
 
 >
 ```html
